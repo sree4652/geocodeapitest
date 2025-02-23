@@ -13,9 +13,6 @@ public class JsonUtil {
                 filteredArray.put(jsonObject);
             }
         }
-        if(filteredArray.isEmpty()){
-            System.out.println("No US cities found from the input");
-        }
         return filteredArray;
     }
 }
