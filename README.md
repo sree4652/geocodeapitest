@@ -16,9 +16,13 @@ How to run:
 
 
  b) To run my regression tests
- 1.Goto testng.xml file which is in root level
- 2.Right click on testng.xml file and click Run
+ 
+ 1)Goto testng.xml file which is in root level
+ 2)Right click on testng.xml file and click Run
 
  
  ![Screenshot 2025-02-23 at 1 47 06 PM](https://github.com/user-attachments/assets/a5101186-e068-4b74-ad6c-db75c26e544d)
+
+
+ 
 
