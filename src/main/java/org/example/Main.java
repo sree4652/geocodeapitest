@@ -43,6 +43,14 @@ public class Main {
                     result.add(part.trim());
 
                 }
+            }else if(input.contains(",") && !input.contains("\"") && !input.contains("“")){
+                String[] parts = input.split(",");
+                for (String part : parts) {
+                    result.add(part.trim());
+
+                }
+            }else{
+                result.add(input);
             }
 
             for (String locOrZip : result) {
