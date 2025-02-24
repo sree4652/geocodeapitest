@@ -60,7 +60,7 @@ public class GeoCodeApiUtil {
             responseMap.put("longitude",jsonArray.getJSONObject(0).getBigDecimal("lon"));
             responseMap.put("name",jsonArray.getJSONObject(0).getString("name"));
             responseMap.put("state",jsonArray.getJSONObject(0).getString("state"));
-            responseMap.put("country",response.path("country"));
+            responseMap.put("country",jsonArray.getJSONObject(0).getString("country"));
         }else if(response.getStatusCode()==404 || jsonArray.isEmpty()) {
             System.out.println(ANSI_RED +"There seems to be no place with this name "+cityName+" in USA");
             responseMap=null;

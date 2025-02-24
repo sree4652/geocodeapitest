@@ -45,7 +45,7 @@ public class GeoCodeApiTest {
     @Test(groups = {"regression"},description = "This test verifies a city outside usa as input and returns no data")
     public void verifyCityOutsideUSA() {
 
-        responseMap = geoCodeApiUtil.getCoordinatesByLocation("“London, ”UK");
+        responseMap = geoCodeApiUtil.getCoordinatesByLocation("“London, UK”");
         Assert.assertNull(responseMap);
 
     }
