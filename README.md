@@ -3,14 +3,15 @@ This repo is a java based project and uses testng to run tests
 Prerequisites: make sure you have atleast java17 installed in your machine
 
 How to run:
-1.Load the program in any IDE which supports java like IntelliJ
+1.Load the program in any IDE which supports java like IntelliJ. I developed in IntelliJ IDE
 
  a) To run user input test
  
  1) Goto Main method(path: /src/main/java/org/example/Main.java )
- 2) Run main method by clicking run button or right click and you will see an option called Run Main.main()
+ 2) Run main method by clicking run button or right click and you will see an option called Run Main.main()(please use below screenshot to check where to run)
  3) It will ask you to give your input in below Run window and click enter(return in mac)
  4) Please give your input and it will print the response
+5) For the simplicity, i added all System.Out.println statements and you can see response in console
 
     ![Screenshot 2025-02-23 at 1 36 52 PM](https://github.com/user-attachments/assets/668896d9-6fb2-4189-b01e-4d36deab7a8f)
 
@@ -24,10 +25,10 @@ How to run:
  ![Screenshot 2025-02-23 at 1 47 06 PM](https://github.com/user-attachments/assets/a5101186-e068-4b74-ad6c-db75c26e544d)
 
 Note: if code gives any error with apikey, please update value in  GeoCodeApiUtils class
-path: src/main/java/org/example/utils/GeoCodeApiUtil.java
+path: src/main/java/org/example/utils/GeoCodeApiUtil.java, variable name= private static final String API_KEY
 
 
- Cautious;
+ Cautious:
 Lets say if you still not able to see any run for main method, make sure you goto run/debug configurations and add appliaction with below 
 
 ![Screenshot 2025-02-23 at 1 55 20 PM](https://github.com/user-attachments/assets/6a51f54b-68e6-463c-9152-8fd29cb14274)

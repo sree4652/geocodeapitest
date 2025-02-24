@@ -3,9 +3,6 @@ package mytests;
 import org.example.utils.GeoCodeApiUtil;
 import org.testng.Assert;
 import org.testng.annotations.Test;
-
-import java.util.ArrayList;
-import java.util.List;
 import java.util.Map;
 
 public class GeoCodeApiTest {
@@ -55,7 +52,7 @@ public class GeoCodeApiTest {
     @Test(groups = {"regression"},description = "This test verifies a zipcode outside usa as input and returns no data")
     public void verifyZipCodeOutsideUSA() {
 
-        responseMap = geoCodeApiUtil.getCoordinatesByZipCode("L1 8JQ");
+        responseMap = geoCodeApiUtil.getCoordinatesByZipCode("L18JQ");
         Assert.assertNull(responseMap);
 
     }
